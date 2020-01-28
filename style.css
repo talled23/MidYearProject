@@ -5,6 +5,7 @@ a {
     color: green;
 }
 body {
-    margin: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
     text-align: center;
 }
