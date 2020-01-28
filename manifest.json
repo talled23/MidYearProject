@@ -1,0 +1,19 @@
+{
+    "name": "Anoroc",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "description": "This is the chrome extension made by Tal Ledeniov and Gabe Ashkenazi!",
+    "icons": {
+        "128": "icon.png"
+    },
+
+    "browser_action": {
+        "default_title": "Anoroc",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "http://*/*", "https://*/*"
+    ] 
+}
