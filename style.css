@@ -1,11 +1,11 @@
 header {
-    color: red;
+    color: black;
     margin-right: 30px;
     margin-left: 30px;
     text-align: center;
 }
 .dropbtn {
-    background-color: rgb(71, 231, 71);
+    background-color: black;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -31,7 +31,7 @@ header {
 }
 .dropdown-content a:hover {background-color: white;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background: #3e84e1;}
+.dropdown:hover .dropbtn {background: blue;}
 h1 {
     margin-bottom: 0px;
 }
