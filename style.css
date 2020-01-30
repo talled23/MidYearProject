@@ -23,27 +23,23 @@ header {
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 160px;
+    /* min-width: 160px; */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 3;
-    margin-left: 0px;
+    margin-left: 100px;
     text-align: center;
 }
 .dropdown-content a:hover {background-color: white;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background: #3e84e1;}
+.dropdown:hover .left-dropbtn {background: #3e84e1;}
 
 .dropdown-content a:hover {background-color: white;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background: #3e84e1;}
+.dropdown:hover .middle-dropbtn {background: #3e84e1;}
 
 .dropdown-content a:hover {background-color: white;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background: #3e84e1;}
-
-.dropdown-content a:hover {background-color: white;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background: #3e84e1;}
+.dropdown:hover .right-dropbtn {background: #3e84e1;}
 
 .left {
     text-align: left;
