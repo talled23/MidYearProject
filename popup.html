@@ -11,21 +11,15 @@
             <h3>Made by Tal & Gabe</h3>
         </header>
         <div class='dropdown'>
-            <button class='left dropbtn'>Cipher</button>
+            <button class='top dropbtn'>Cipher</button>
             <div class='dropdown-content cipher'>
-                <form class='entry'>
+                <form class='entry' action='cipher.js'>
                     Input Message: <input type='text' name='input'><br>
                 </form>
-                <button onclick='encrypt()' type="submit left">Encrypt</button>
-                <button onclick='decrypt()' type="submit right">Decrypt</button>
+                <button type="submit left">Encrypt</button>
+                <button type="submit right">Decrypt</button>
                 <p></p>
-                <p id='cipher'>OUTPUT</p>
-            </div>
-            <button class='middle dropbtn'>Clicker</button>
-            <div class='dropdown-content cipher'>
-            </div>
-            <button class='right dropbtn'>Clock</button>
-            <div class='dropdown-content cipher'>
+                <p>OUTPUT</p>
             </div>
         </div>
     </body>
