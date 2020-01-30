@@ -13,23 +13,19 @@
         <div class='dropdown'>
             <button class='left dropbtn'>Cipher</button>
             <div class='dropdown-content cipher'>
-                <form class='entry' id='cipher'>
+                <form class='entry'>
                     Input Message: <input type='text' name='input'><br>
                 </form>
-                <button type="submit left">Encrypt</button>
-                <button type="submit right">Decrypt</button>
+                <button onclick='encrypt()' type="submit left">Encrypt</button>
+                <button onclick='decrypt()' type="submit right">Decrypt</button>
                 <p></p>
-                <p>OUTPUT</p>
+                <p id='cipher'>OUTPUT</p>
             </div>
             <button class='middle dropbtn'>Clicker</button>
             <div class='dropdown-content cipher'>
-                
-                <p>OUTPUT</p>
             </div>
             <button class='right dropbtn'>Clock</button>
             <div class='dropdown-content cipher'>
-                
-                <p>OUTPUT</p>
             </div>
         </div>
     </body>
