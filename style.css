@@ -4,7 +4,27 @@ header {
     margin-left: 30px;
     text-align: center;
 }
-.dropbtn {
+.dropbtn1 {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+.dropbtn2 {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+.dropbtn3 {
     background-color: black;
     color: white;
     padding: 16px;
@@ -19,7 +39,7 @@ header {
     white-space: nowrap;
     display: inline-block;
 }
-.dropdown-content {
+.dropdown1-content {
     display: none;
     position: absolute;
     background-color: white;
@@ -29,9 +49,40 @@ header {
     margin-left: 0px;
     text-align: center;
 }
-.dropdown-content a:hover {background-color: white;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background: blue;}
+.dropdown2-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 0px;
+    text-align: center;
+}
+.dropdown3-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 0px;
+    text-align: center;
+}
+.dropdown1-content a:hover {background-color: white;}
+.dropdown1:hover .dropdown1-content {display: block;}
+.dropdown1:hover .dropbtn1 {background: blue;}
+
+.dropdown2-content a:hover {background-color: white;}
+.dropdown2:hover .dropdown2-content {display: block;}
+.dropdown2:hover .dropbtn2 {background: blue;}
+
+.dropdown3-content a:hover {background-color: white;}
+.dropdown3:hover .dropdown3-content {display: block;}
+.dropdown3:hover .dropbtn3 {background: blue;}
+
+
+
 h1 {
     margin-bottom: 0px;
 }
