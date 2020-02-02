@@ -89,3 +89,10 @@ button {
     white-space: nowrap;
     display: inline-flex;
 }
+h1 {
+    padding: 0px;
+    margin-bottom:0px;
+}
+h3 {
+    margin-top: 0px;
+}
