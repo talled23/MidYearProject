@@ -4,62 +4,48 @@ header {
     margin-left: 30px;
     text-align: center;
 }
-.dropbtn1 {
-    background-color: black;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    margin-right: 30px;
-    margin-left: 30px;
-    text-align: center;
-}
-.dropbtn2 {
-    background-color: black;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    margin-right: 30px;
-    margin-left: 30px;
-    text-align: center;
-}
-.dropbtn3 {
-    background-color: black;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    margin-right: 30px;
-    margin-left: 30px;
-    text-align: center;
-}
-.dropbtn4 {
-    background-color: black;
-    color: white; 
-    padding: 16px; 
-    font-size: 16px;
-    border: none;
-    margin-right: 30px;
-    margin-left: 30px;
-    text-align: center;
-}
-.dropdown{
+.dropdowns{
     position: relative;
     white-space: nowrap;
     display: inline-block;
 }
-.dropdown1-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    margin-left: 0px;
+
+button {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-right: 30px;
+    margin-left: 30px;
     text-align: center;
 }
-.dropdown2-content {
+.encrypt {
+    background-color: grey;
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+    border: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+    border-color: black;
+}
+.decrypt {
+    background-color: grey;
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+    border: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+    border-color: black;
+}
+
+.dropdown1-content {
     display: none;
     position: absolute;
     background-color: white;
@@ -94,10 +80,6 @@ header {
 .dropdown1:hover .dropdown1-content {display: block;}
 .dropdown1:hover .dropbtn1 {background: blue;}
 
-.dropdown2-content a:hover {background-color: white;}
-.dropdown2:hover .dropdown2-content {display: block;}
-.dropdown2:hover .dropbtn2 {background: blue;}
-
 .dropdown3-content a:hover {background-color: white;}
 .dropdown3:hover .dropdown3-content {display: block;}
 .dropdown3:hover .dropbtn3 {background: blue;}
@@ -107,13 +89,3 @@ header {
 .dropdown4:hover .dropbtn4 {background: blue;}
 
 
-h1 {
-    margin-bottom: 0px;
-}
-
-.left {
-    text-align: left;
-}
-.right {
-    text-align: right;
-}
