@@ -1,1 +1,9 @@
-window.getElementById("rickardo").addEventListener("click", function() { window.open("https://www.latlmes.com/tech/comp-sci-lab-answers-1", "_blank")})
+//window.getElementById("rickardo").addEventListener("click", function() { window.open("https://www.latlmes.com/tech/comp-sci-lab-answers-1", "_blank")})
+
+let i = 0;
+function counter() {
+    document.getElementById("Counter").innerHTML=i++;
+}
+
+document.getElementById("Counter").addEventListener("click", counter )
+
