@@ -89,6 +89,19 @@ button {
     white-space: nowrap;
     display: inline-flex;
 }
+.dropdown4-content {
+    background-color: blueviolet;
+}
+.link {
+    background-color: grey;
+    color:black;
+    padding:5px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: small;
+}
 h1 {
     padding: 0px;
     margin-bottom:0px;
