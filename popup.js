@@ -1,9 +1,8 @@
 //window.getElementById("rickardo").addEventListener("click", function() { window.open("https://www.latlmes.com/tech/comp-sci-lab-answers-1", "_blank")})
 
-let i = 0;
+let i = 1;
 function counter() {
     document.getElementById("Counter").innerHTML=i++;
 }
 
-document.getElementById("Counter").addEventListener("click", counter )
-
+document.getElementById("Counter").addEventListener("click", counter)
