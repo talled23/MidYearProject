@@ -6,7 +6,12 @@ function counter() {
 
 document.getElementById("Counter").addEventListener("click", counter)
 
-var e_dict = {}
-var d_dict = {}
+function encrypt() {
+    fs=readFile('cipher.txt',data)
+}
+function decrypt() {
+    fs=readFile('cipher.txt',data)
+}
 
-var keyList = list(e_dict.keys) 
+document.getElementById('encrypt').addEventListener("click",encrypt)
+document.getElementById('decrypt').addEventListener("click",decrypt)
