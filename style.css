@@ -27,6 +27,45 @@ button {
     text-align: center;
     border-color: black;
 }
+#pascal {
+    background-color: grey;
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+    border: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-color: black;
+}
+#pythagorean {
+    background-color: grey;
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+    border: 10px;
+    margin-right: 5px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-color: black;
+}
+#fibb {
+    background-color: grey;
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+    border: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-color: black;
+}
 .decrypt {
     background-color: grey;
     color: black;
