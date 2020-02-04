@@ -15,6 +15,10 @@ button {
     margin-left: 5px;
     text-align: center;
 }
+br {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .encrypt {
     background-color: grey;
     color: black;
