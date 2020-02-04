@@ -5,3 +5,8 @@ function counter() {
 }
 
 document.getElementById("Counter").addEventListener("click", counter)
+
+var e_dict = {}
+var d_dict = {}
+
+var keyList = list(e_dict.keys) 
