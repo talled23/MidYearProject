@@ -11,9 +11,29 @@ function pythagor() {
     final = Math.sqrt(final)
     document.getElementById("answer").innerHTML=final;
 }
+function factorialize(num) {
+    var result = num;
+    if (num === 0 || num === 1) 
+      return 1; 
+    while (num > 1) { 
+      num--;
+      result *= num;
+    }
+    return result;
+}
+function triangle() {
+    num1 = parseFloat(document.getElementById("input1").value)
+    num2 = parseFloat(document.getElementById("input2").value)
+    final = factorialize(num1)
+    final /= factorialize(num2)
+    final /= factorialize(num1-num2)
+    document.getElementById("answer").innerHTML=final;
+}
 
 document.getElementById("Counter").addEventListener("click", counter)
 document.getElementById("pythagorean").addEventListener("click", pythagor)
+document.getElementById("pascal").addEventListener("click", triangle)
+
 
 
 function encrypt() {
