@@ -8,7 +8,11 @@ function pythagor() {
     num2 = parseFloat(document.getElementById("input2").value)
     final = Math.pow(num1, 2) + Math.pow(num2, 2)
     final = Math.sqrt(final)
-    document.getElementById("answer").innerHTML=final;
+    document.getElementById("answer").innerHTML=final
+}
+function fibb {
+    num1 = parseFloat(document.getElementById("input1").value)
+    document.getElementById("answer").innerHTML=num1
 }
 function factorialize(num) {
     var result = num;
@@ -25,7 +29,7 @@ function triangle() {
     num2 = parseFloat(document.getElementById("input2").value)
     final = factorialize(num1)
     final /= factorialize(num2) * factorialize(num1-num2)
-    document.getElementById("answer").innerHTML=final;
+    document.getElementById("answer").innerHTML=final
 }
 function encrypt() {
     fs=readFile('cipher.txt',data)
@@ -35,6 +39,7 @@ function decrypt() {
 }
 
 document.getElementById("Counter").addEventListener("click", counter)
+document.getElementById("fibb").addEventListener("click", fibb)
 document.getElementById("pythagorean").addEventListener("click", pythagor)
 document.getElementById("pascal").addEventListener("click", triangle)
 document.getElementById('encrypt').addEventListener("click",encrypt)
