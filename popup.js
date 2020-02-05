@@ -10,7 +10,7 @@ function pythagor() {
     final = Math.sqrt(final)
     document.getElementById("answer").innerHTML=final;
 }
-function fibb {
+function fibb() {
     num1 = parseFloat(document.getElementById("input1").value)
     document.getElementById("answer").innerHTML=num1
 }
