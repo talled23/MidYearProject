@@ -3,13 +3,16 @@ a= 16
 b=45
 c=16
 d=45
+font=16
 function counter() {
     document.getElementById("Counter").innerHTML=i++;
     a++;
     b++;
     c++;
     d++;
+    font++;
     document.getElementById("Counter").style.boxSizing= "10px";
+    document.getElementById("Counter").style.fontSize=`${font}px`
     document.getElementById('Counter').style.padding = `${a}px ${b}px ${c}px ${d}px`;
 }
 function pythagor() {
