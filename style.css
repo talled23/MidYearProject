@@ -146,7 +146,6 @@ br {
     display: inline-flex;
 }
 .link {
-<<<<<<< HEAD
     display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -159,15 +158,6 @@ br {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-=======
-    background-color: grey;
-    color:black;
-    padding:5px 10px 5px 10px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
-    font-size: small;
->>>>>>> eed674fb35d16c06d1ceda5b33312a9e8a3d53aa
 }
 h1 {
     padding: 0px;
