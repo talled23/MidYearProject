@@ -1,7 +1,16 @@
 let i = 1;
+a= 16
+b=45
+c=16
+d=45
 function counter() {
     document.getElementById("Counter").innerHTML=i++;
-    document.getElementById('Counter').style.padding = "16px 45px 16px 45px";
+    a++;
+    b++;
+    c++;
+    d++;
+    document.getElementById("Counter").style.boxSizing= "10px";
+    document.getElementById('Counter').style.padding = `${a}px ${b}px ${c}px ${d}px`;
 }
 function pythagor() {
     num1 = parseFloat(document.getElementById("input1").value)
