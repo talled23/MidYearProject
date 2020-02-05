@@ -10,9 +10,18 @@ function pythagor() {
     final = Math.sqrt(final)
     document.getElementById("answer").innerHTML=final;
 }
-function fibb() {
-    num1 = parseFloat(document.getElementById("input1").value)
-    document.getElementById("answer").innerHTML=num1
+function fibb(){
+    
+    num = parseFloat(document.getElementById('input1').value)
+    var a = 1, b = 0, temp;
+  
+    while (num >= 0){
+      queen = a;
+      a = a + b;
+      b = queen;
+      num--;
+    }
+    document.getElementById("answer").innerHTML=b;
 }
 function factorialize(num) {
     var result = num;
