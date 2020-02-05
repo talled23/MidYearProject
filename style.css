@@ -35,7 +35,7 @@ br {
     background-color: grey;
     color: black;
     padding: 5px;
-    font-size: 16px;
+    font-size: 12px;
     border: 10px;
     margin-right: 10px;
     margin-left: 0px;
@@ -48,7 +48,7 @@ br {
     background-color: grey;
     color: black;
     padding: 5px;
-    font-size: 16px;
+    font-size: 12px;
     border: 10px;
     margin-right: 5px;
     margin-left: 0px;
@@ -61,10 +61,23 @@ br {
     background-color: grey;
     color: black;
     padding: 5px;
-    font-size: 16px;
+    font-size: 12px;
     border: 10px;
     margin-right: 10px;
     margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-color: black;
+}
+#cubic{
+    background-color: grey;
+    color: black;
+    padding: 5px;
+    font-size: 12px;
+    border: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
