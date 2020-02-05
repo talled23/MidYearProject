@@ -5,12 +5,18 @@ c=16
 d=45
 font=16
 function counter() {
-    document.getElementById("Counter").innerHTML=i++;
-    a++;
-    b++;
-    c++;
-    d++;
-    font++;
+    if (font===69) {
+        document.getElementById("Counter").innerHTML= "Nice";
+    } else {
+        document.getElementById("Counter").innerHTML=i++;
+    }
+    if (font<=50) {
+        a++;
+        b++;
+        c++;
+        d++;
+        font++;
+    }
     document.getElementById("Counter").style.boxSizing= "10px";
     document.getElementById("Counter").style.fontSize=`${font}px`
     document.getElementById('Counter').style.padding = `${a}px ${b}px ${c}px ${d}px`;
