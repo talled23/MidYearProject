@@ -1,21 +1,26 @@
-let i = 1;
-a= 16
-b=45
-c=16
-d=45
-font=16
+let i = 0;
+let a= 16;
+let b=45;
+let c=16;
+let d=45;
+let font=16;
 function counter() {
-    if (font===69) {
+    i++;
+    if (i==69) {
         document.getElementById("Counter").innerHTML= "Nice";
-    } else {
-        document.getElementById("Counter").innerHTML=i++;
+    }else if(i==420){
+        document.getElementById("Counter").innerHTML= "Nicer";
+    }else if(i==1000){
+        document.getElementById("Counter").innerHTML= "Nicest";
+    }else{
+        document.getElementById("Counter").innerHTML=i;
     }
-    if (font<=50) {
-        a++;
-        b++;
-        c++;
-        d++;
-        font++;
+    if (i<=200) {
+        a+=0.1;
+        b+=0.1;
+        c+=0.1;
+        d+=0.1;
+        font+=0.1;
     }
     document.getElementById("Counter").style.boxSizing= "10px";
     document.getElementById("Counter").style.fontSize=`${font}px`
