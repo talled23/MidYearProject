@@ -15,7 +15,7 @@ function counter() {
     }else{
         document.getElementById("Counter").innerHTML=i;
     }
-    if (i<=200) {
+    if (i<=500) {
         a+=0.1;
         b+=0.1;
         c+=0.1;
