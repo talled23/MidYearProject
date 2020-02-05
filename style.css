@@ -146,13 +146,18 @@ br {
     display: inline-flex;
 }
 .link {
-    background-color: grey;
-    color:black;
-    padding:5px 10px 5px 10px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
-    font-size: small;
+    display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.link a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 h1 {
     padding: 0px;
