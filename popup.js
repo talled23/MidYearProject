@@ -38,6 +38,7 @@ function decrypt() {
     fs=readFile('cipher.txt',data)
 }
 
+
 document.getElementById("Counter").addEventListener("click", counter)
 document.getElementById("fibb").addEventListener("click", fibb)
 document.getElementById("pythagorean").addEventListener("click", pythagor)
