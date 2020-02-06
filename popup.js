@@ -36,8 +36,13 @@ function pythagor() {
 function baseConvert() {
     num1 = parseFloat(document.getElementById("input1").value)
     num2 = parseFloat(document.getElementById("input2").value)
-    final = num1.toString(num2)
-    document.getElementById("answer").innerHTML=final;
+    if (num2>=2 && num2<=36) {
+        final = num1.toString(num2)
+        document.getElementById("answer").innerHTML=final + " base " + num2;
+    }else {
+        document.getElementById("answer").innerHTML="Please enter a base in between 2 and 36";
+    }
+    
 }
 function fibb(){
     
