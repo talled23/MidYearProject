@@ -64,10 +64,31 @@ function triangle() {
     document.getElementById("answer").innerHTML=final;
 }
 function encrypt() {
-    fs=readFile('cipher.txt',data)
+    var e_dict = {};
+    const lineByLine = require('n-readlines')
+    const linear = new lineByLine('cipher.txt')
+
+    let line;
+    while (line=liner.next()) {
+        line=line.trim().split('=>')
+        e_dict[line[0]]=line[1]
+    }
+    let msg = parseString(document.getElementById("input1").value)
+    let newmsg = []
+    for (i=0; length.msg; i++) {
+    }
 }
 function decrypt() {
-    fs=readFile('cipher.txt',data)
+    var d_dict = {};
+    const lineByLine = require('n-readlines')
+    const linear = new lineByLine('cipher.txt')
+
+    let line;
+    while (line=liner.next()) {
+        line=line.trim().split('=>')
+        d_dict[line[0]]=line[1]
+    }
+    msg = parseString(document.getElementById("input1").value)
 }
 
 
