@@ -33,6 +33,12 @@ function pythagor() {
     final = Math.sqrt(final)
     document.getElementById("answer").innerHTML=final;
 }
+function baseConvert() {
+    num1 = parseFloat(document.getElementById("input1").value)
+    num2 = parseFloat(document.getElementById("input2").value)
+    final = num1.toString(num2)
+    document.getElementById("answer").innerHTML=final;
+}
 function fibb(){
     
     num = parseFloat(document.getElementById('input1').value)
@@ -72,6 +78,7 @@ function decrypt() {
 
 
 document.getElementById("Counter").addEventListener("click", counter)
+document.getElementById("base").addEventListener("click", baseConvert)
 document.getElementById("fibb").addEventListener("click", fibb)
 document.getElementById("pythagorean").addEventListener("click", pythagor)
 document.getElementById("pascal").addEventListener("click", triangle)
