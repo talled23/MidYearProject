@@ -76,24 +76,32 @@ function triangle() {
 function encrypt() {
     msg = document.getElementById("cipher-input").value.toUpperCase();
     key = parseInt(document.getElementById("key").value)
-    let result = '';
-    let charcode = 0;
-    for (let i = 0; i < msg.length; i++) {
-        charcode = (msg[i].charCodeAt()) + key;
-        result += String.fromCharCode(charcode);
+    if (msg=="" || key=="") {
+        document.getElementById("output").innerHTML="Please fill in all entries"; 
+    }else {
+        let result = '';
+        let charcode = 0;
+        for (let i = 0; i < msg.length; i++) {
+            charcode = (msg[i].charCodeAt()) + key;
+            result += String.fromCharCode(charcode);
+        }
+        document.getElementById("output").innerHTML=result; 
     }
-    document.getElementById("output").innerHTML=result; 
 }
 function decrypt() {
     msg = document.getElementById("cipher-input").value.toUpperCase();
     key = parseInt(document.getElementById("key").value)
-    let result = '';
-    let charcode = 0;
-    for (let i = 0; i < msg.length; i++) {
-        charcode = (msg[i].charCodeAt()) + - key;
-        result += String.fromCharCode(charcode);
+    if (msg=="" || key=="") {
+        document.getElementById("output").innerHTML="Please fill in all entries"; 
+    }else {
+        let result = '';
+        let charcode = 0;
+        for (let i = 0; i < msg.length; i++) {
+            charcode = (msg[i].charCodeAt()) + - key;
+            result += String.fromCharCode(charcode);
+        }
+        document.getElementById("output").innerHTML=result; 
     }
-    document.getElementById("output").innerHTML=result; 
 }
 
 
