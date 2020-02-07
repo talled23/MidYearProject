@@ -48,7 +48,6 @@ function fibb(){
     
     num = parseFloat(document.getElementById('input1').value)
     var a = 1, b = 0, temp;
-  
     while (num >= 0){
       queen = a;
       a = a + b;
@@ -75,39 +74,26 @@ function triangle() {
     document.getElementById("answer").innerHTML=final;
 }
 function encrypt() {
-    var e_dict = {};
-    const lineByLine = require('n-readlines')
-    const linear = new lineByLine('cipher.txt')
-
-    let line;
-    while (line=liner.next()) {
-        line=line.trim().split('=>')
-        e_dict[line[0]]=line[1]
+    msg = document.getElementById("cipher-input").value.toUpperCase();
+    key = parseInt(document.getElementById("key").value)
+    let result = '';
+    let charcode = 0;
+    for (let i = 0; i < msg.length; i++) {
+        charcode = (msg[i].charCodeAt()) + key;
+        result += String.fromCharCode(charcode);
     }
-    let keyList = Object.keys(e_dict);
-    let msg = parseString(document.getElementById('cipher-input').value)
-    let newmsg = [];
-    for (i=0; length.msg; i++) {
-        if (keyList.includes(i) === false) {
-            newmsg.push(i)
-        } else {
-            let i = e_dict[i]
-            newmsg.push(i)
-        }
-    }
-    document.getElementById("answer").innterHTML=newmsg
+    document.getElementById("output").innerHTML=result; 
 }
 function decrypt() {
-    var d_dict = {};
-    const lineByLine = require('n-readlines')
-    const linear = new lineByLine('cipher.txt')
-
-    let line;
-    while (line=liner.next()) {
-        line=line.trim().split('=>')
-        d_dict[line[0]]=line[1]
+    msg = document.getElementById("cipher-input").value.toUpperCase();
+    key = parseInt(document.getElementById("key").value)
+    let result = '';
+    let charcode = 0;
+    for (let i = 0; i < msg.length; i++) {
+        charcode = (msg[i].charCodeAt()) + - key;
+        result += String.fromCharCode(charcode);
     }
-    msg = parseString(document.getElementById("input1").value)
+    document.getElementById("output").innerHTML=result; 
 }
 
 
@@ -116,5 +102,5 @@ document.getElementById("base").addEventListener("click", baseConvert)
 document.getElementById("fibb").addEventListener("click", fibb)
 document.getElementById("pythagorean").addEventListener("click", pythagor)
 document.getElementById("pascal").addEventListener("click", triangle)
-document.getElementById('encrypt').addEventListener("click",encrypt)
-document.getElementById('decrypt').addEventListener("click",decrypt)
+document.getElementById('encrypter').addEventListener("click", encrypt)
+document.getElementById('decrypter').addEventListener("click", decrypt)
