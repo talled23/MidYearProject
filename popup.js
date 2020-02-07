@@ -84,10 +84,18 @@ function encrypt() {
         line=line.trim().split('=>')
         e_dict[line[0]]=line[1]
     }
-    let msg = parseString(document.getElementById("input1").value)
-    let newmsg = []
+    let keyList = Object.keys(e_dict);
+    let msg = parseString(document.getElementById('cipher-input').value)
+    let newmsg = [];
     for (i=0; length.msg; i++) {
+        if (keyList.includes(i) === false) {
+            newmsg.push(i)
+        } else {
+            let i = e_dict[i]
+            newmsg.push(i)
+        }
     }
+    document.getElementById("answer").innterHTML=newmsg
 }
 function decrypt() {
     var d_dict = {};
