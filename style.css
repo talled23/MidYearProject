@@ -6,8 +6,10 @@ header {
 }
 body {
     background-color: #FF66DA;
+    background-image: linear-gradient(to right, #E154BD , lightblue);
+    font-family: helvetica;
+    font-size: 14px;
 }
-
 button {
     background-color: #B8459C;
     color: #6F0B57;
@@ -124,20 +126,20 @@ button {
     text-align: center;
 }
 .dropbtn1 {
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 
 .dropbtn2 {
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 .dropbtn3 {
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 .dropbtn4 {
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 .dropbtn5 {
-    transition-duration: 1s;
+    transition-duration: .5s;
 }
 .dropbtn5 span {
     cursor: pointer;

@@ -97,7 +97,7 @@ function decrypt() {
         let result = '';
         let charcode = 0;
         for (let i = 0; i < msg.length; i++) {
-            charcode = (msg[i].charCodeAt()) + - key;
+            charcode = (msg[i].charCodeAt()) - key;
             result += String.fromCharCode(charcode);
         }
         document.getElementById("output").innerHTML=result; 
