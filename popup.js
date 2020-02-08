@@ -35,7 +35,7 @@ function pythagor() {
     document.getElementById("answer").innerHTML='C = '+final;
 }
 function baseConvert() {
-    document.getElementById('stinky').innerHTML="Number/Base";
+    document.getElementById('stinky').innerHTML="^ Number | V Base";
     num1 = parseFloat(document.getElementById("input1").value)
     num2 = parseFloat(document.getElementById("input2").value)
     if (num2>=2 && num2<=36) {
