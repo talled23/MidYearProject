@@ -6,7 +6,7 @@ header {
 }
 body {
     background-color: #FF66DA;
-    background-image: linear-gradient(to right, #E154BD , lightblue);
+    background-image: linear-gradient(to right, #E154BD , rgb(36, 180, 228));
     font-family: helvetica;
     font-size: 14px;
 }

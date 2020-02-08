@@ -27,13 +27,15 @@ function counter() {
     document.getElementById('Counter').style.padding = `${a}px ${b}px ${c}px ${d}px`;
 }
 function pythagor() {
+    document.getElementById('stinky').innerHTML="A/B";
     num1 = parseFloat(document.getElementById("input1").value)
     num2 = parseFloat(document.getElementById("input2").value)
     final = Math.pow(num1, 2) + Math.pow(num2, 2)
     final = Math.sqrt(final)
-    document.getElementById("answer").innerHTML=final;
+    document.getElementById("answer").innerHTML='C = '+final;
 }
 function baseConvert() {
+    document.getElementById('stinky').innerHTML="Number/Base";
     num1 = parseFloat(document.getElementById("input1").value)
     num2 = parseFloat(document.getElementById("input2").value)
     if (num2>=2 && num2<=36) {
@@ -42,10 +44,9 @@ function baseConvert() {
     }else {
         document.getElementById("answer").innerHTML="Please enter a base in between 2 and 36";
     }
-    
 }
 function fibb(){
-    
+    document.getElementById('stinky').innerHTML='Number in Sequence (-1)=0';
     num = parseFloat(document.getElementById('input1').value)
     var a = 1, b = 0, temp;
     while (num >= 0){
