@@ -77,7 +77,7 @@ function triangle() {
 function encrypt() {
     msg = document.getElementById("cipher-input").value.toUpperCase();
     key = parseInt(document.getElementById("key").value)
-    if (msg=="" || key=="") {
+    if ((msg=="") || (key=="")) {
         document.getElementById("output").innerHTML="Please fill in all entries"; 
     }else {
         let result = '';
