@@ -97,7 +97,7 @@ button {
     border-color: black;
 }
 
-input {
+.input {
     background-color: #E154BD;
 }
 
@@ -123,23 +123,69 @@ input {
     margin-left: 0px;
     text-align: center;
 }
+.dropbtn1 {
+    transition-duration: 1s;
+}
 
+.dropbtn2 {
+    transition-duration: 1s;
+}
+.dropbtn3 {
+    transition-duration: 1s;
+}
+.dropbtn4 {
+    transition-duration: 1s;
+}
+.dropbtn5 {
+    transition-duration: 1s;
+}
+.dropbtn5 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+.dropbtn5 span:after {
+content: ';)';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: .5s;
+}
+.dropbtn5:hover span {
+    padding-right: 25px;
+}
+.dropbtn5:hover span:after {
+opacity: 1;
+right: 0;
+}
 
 .dropdown1:hover .dropdown1-content {display: block;}
 .dropdown1:hover .dropbtn1 {background: blue;}
+.dropdown1:hover .dropbtn1 {color: white;}
+
+.dropdown2:hover .dropbtn2 {background: blue;}
+.dropdown2:hover .dropbtn2 {color: white;}
 
 .dropdown3:hover .dropdown3-content {display: block;}
 .dropdown3:hover .dropbtn3 {background: blue;}
+.dropdown3:hover .dropbtn3 {color: white;}
+
 
 .dropdown4-content a:hover {background-color: #C13FA0;}
 .dropdown4:hover .dropdown4-content {display: block;}
 .dropdown4:hover .dropbtn4 {background: blue;}
+.dropdown4:hover .dropbtn4 {color: white;}
 
+.dropdown5:hover .dropbtn5 {background: blue;}
+.dropdown5:hover .dropbtn5 {color: white;}
 
 .dropdowns{
     position: relative;
     white-space: nowrap;
     display: inline-flex;
+    transition-duration: 1s;
 }
 .link {
     display: none;
@@ -157,4 +203,3 @@ input {
     text-decoration: none;
     display: block;
 }
-
