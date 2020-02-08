@@ -9,9 +9,11 @@ body {
     background-image: linear-gradient(to right, #E154BD , rgb(36, 180, 228));
     font-family: helvetica;
     font-size: 14px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 button {
     background-color: #B8459C;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     color: #6F0B57;
     padding: 16px;
     font-weight: bold;
@@ -114,7 +116,7 @@ button {
     margin-left: 0px;
     text-align: center;
 }
-.dropdown3-content {
+.dropdown2-content {
     display: none;
     color: #6F0B57;
     position: absolute;
@@ -167,12 +169,12 @@ right: 0;
 .dropdown1:hover .dropbtn1 {background: blue;}
 .dropdown1:hover .dropbtn1 {color: white;}
 
-.dropdown2:hover .dropbtn2 {background: blue;}
-.dropdown2:hover .dropbtn2 {color: white;}
-
-.dropdown3:hover .dropdown3-content {display: block;}
 .dropdown3:hover .dropbtn3 {background: blue;}
 .dropdown3:hover .dropbtn3 {color: white;}
+
+.dropdown2:hover .dropdown2-content {display: block;}
+.dropdown2:hover .dropbtn2 {background: blue;}
+.dropdown2:hover .dropbtn2 {color: white;}
 
 
 .dropdown4-content a:hover {background-color: #C13FA0;}
