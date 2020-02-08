@@ -56,7 +56,7 @@ function fibb(){
         b = queen;
         num--;
         }
-        document.getElementById("answer").innerHTML=b;
+        document.getElementById("answer").innerHTML="Answer: " + b;
     }else {
         document.getElementById("answer").innerHTML="Please enter a number";
     }
@@ -77,7 +77,7 @@ function triangle() {
     num2 = parseFloat(document.getElementById("input2").value)
     final = factorialize(num1)
     final /= factorialize(num2) * factorialize(num1-num2)
-    document.getElementById("answer").innerHTML=final;
+    document.getElementById("answer").innerHTML="Answer: " + final;
 }
 function encrypt() {
     msg = document.getElementById("cipher-input").value.toUpperCase();
