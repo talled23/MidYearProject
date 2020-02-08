@@ -82,7 +82,6 @@ function encrypt() {
         charcode = (msg[i].charCodeAt()) + key+3;
         result += String.fromCharCode(charcode);
     }
-    document.getElementById("output").innerHTML=result; 
 }
 function decrypt() {
     msg = document.getElementById("cipher-input").value.toUpperCase();
@@ -93,7 +92,6 @@ function decrypt() {
         charcode = (msg[i].charCodeAt()) - key-3;
         result += String.fromCharCode(charcode);
     }
-    document.getElementById("output").innerHTML=result; 
 }
 
 
