@@ -9,9 +9,11 @@ body {
     background-image: linear-gradient(to right, #E154BD , lightblue);
     font-family: helvetica;
     font-size: 14px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 button {
     background-color: #B8459C;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     color: #6F0B57;
     padding: 16px;
     font-weight: bold;
