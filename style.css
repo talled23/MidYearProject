@@ -116,7 +116,7 @@ button {
     margin-left: 0px;
     text-align: center;
 }
-.dropdown3-content {
+.dropdown2-content {
     display: none;
     color: #6F0B57;
     position: absolute;
@@ -169,12 +169,12 @@ right: 0;
 .dropdown1:hover .dropbtn1 {background: blue;}
 .dropdown1:hover .dropbtn1 {color: white;}
 
-.dropdown2:hover .dropbtn2 {background: blue;}
-.dropdown2:hover .dropbtn2 {color: white;}
-
-.dropdown3:hover .dropdown3-content {display: block;}
 .dropdown3:hover .dropbtn3 {background: blue;}
 .dropdown3:hover .dropbtn3 {color: white;}
+
+.dropdown2:hover .dropdown2-content {display: block;}
+.dropdown2:hover .dropbtn2 {background: blue;}
+.dropdown2:hover .dropbtn2 {color: white;}
 
 
 .dropdown4-content a:hover {background-color: #C13FA0;}
