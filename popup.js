@@ -51,10 +51,10 @@ function fibb(){
     if (num!="") {
         var a = 1, b = 0, temp;
         while (num >= 0){
-        queen = a;
-        a = a + b;
-        b = queen;
-        num--;
+            queen = a;
+            a = a + b;
+            b = queen;
+            num--;
         }
         document.getElementById("answer").innerHTML="Answer: " + b;
     }else {
