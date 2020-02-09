@@ -27,7 +27,7 @@ function counter() {
     document.getElementById('Counter').style.padding = `${a}px ${b}px ${c}px ${d}px`;
 }
 function pythagor() {
-    document.getElementById('stinky').innerHTML="^ A | V B";
+    document.getElementById('stinky').innerHTML="&#129033; A | &#129035; B";
     num1 = parseFloat(document.getElementById("input1").value)
     num2 = parseFloat(document.getElementById("input2").value)
     final = Math.pow(num1, 2) + Math.pow(num2, 2)
@@ -35,7 +35,7 @@ function pythagor() {
     document.getElementById("answer").innerHTML='C = '+final;
 }
 function baseConvert() {
-    document.getElementById('stinky').innerHTML="^ Number | V Base";
+    document.getElementById('stinky').innerHTML="&#129033; Number | &#129035; Base";
     num1 = parseFloat(document.getElementById("input1").value)
     num2 = parseFloat(document.getElementById("input2").value)
     if (num2>=2 && num2<=36) {
@@ -46,7 +46,7 @@ function baseConvert() {
     }
 }
 function fibb(){
-    document.getElementById('stinky').innerHTML='^^^Number in Sequence';
+    document.getElementById('stinky').innerHTML='&#129033;&#129033;&#129033;Number in Sequence';
     num = parseFloat(document.getElementById('input1').value)
     if (num!="") {
         var a = 1, b = 0, temp;
@@ -73,7 +73,7 @@ function factorialize(num) {
 }
 function triangle() {
     num1 = parseFloat(document.getElementById("input1").value)
-    document.getElementById('stinky').innerHTML='^ Row | V Column';
+    document.getElementById('stinky').innerHTML='&#129033; Row | &#129035; Column';
     num2 = parseFloat(document.getElementById("input2").value)
     final = factorialize(num1)
     final /= factorialize(num2) * factorialize(num1-num2)
