@@ -1,9 +1,4 @@
-let i = 0;
-let a= 16;
-let b=45;
-let c=16;
-let d=45;
-let font=16;
+let i = 0; a= 16; b=45; c=16; d=45; font=16;
 function counter() {
     i++;
     if (i==69) {

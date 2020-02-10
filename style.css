@@ -115,6 +115,8 @@ input {
     z-index: 1;
     margin-left: 0px;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .dropdown2-content {
     display: none;
