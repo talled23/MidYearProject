@@ -42,18 +42,16 @@ function baseConvert() {
 }
 function fib(){
     document.getElementById('stinky').innerHTML='&#129033;&#129033;&#129033;Number in Sequence';
-    num = parseFloat(document.getElementById('input1').value)
+    num = parseInt(document.getElementById('input1').value)-1
     if (num!="") {
-        var a = 1, b = 0, temp;
+        var x = 1, y = 0, temp;
         while (num >= 0){
-            queen = a;
-            a = a + b;
-            b = queen;
+            queen = x;
+            x = x + y;
+            y = queen;
             num--;
         }
-        document.getElementById("answer").innerHTML="Answer: " + b;
-    }else {
-        document.getElementById("answer").innerHTML="Please enter a number";
+        document.getElementById("answer").innerHTML="Answer: " + y;
     }
 }
 function factorialize(num) {
