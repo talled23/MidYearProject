@@ -40,7 +40,7 @@ function baseConvert() {
         document.getElementById("answer").innerHTML="Please enter a base in between 2 and 36";
     }
 }
-function fibb(){
+function fib(){
     document.getElementById('stinky').innerHTML='&#129033;&#129033;&#129033;Number in Sequence';
     num = parseFloat(document.getElementById('input1').value)
     if (num!="") {
@@ -108,7 +108,7 @@ function decrypt() {
 
 document.getElementById("Counter").addEventListener("click", counter)
 document.getElementById("base").addEventListener("click", baseConvert)
-document.getElementById("fibb").addEventListener("click", fibb)
+document.getElementById("fib").addEventListener("click", fib)
 document.getElementById("pythagorean").addEventListener("click", pythagor)
 document.getElementById("pascal").addEventListener("click", triangle)
 document.getElementById('encrypter').addEventListener("click", encrypt)
