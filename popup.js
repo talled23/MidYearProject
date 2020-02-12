@@ -67,7 +67,7 @@ function factorialize(num) {
 function triangle() {
     num1 = parseFloat(document.getElementById("input1").value)
     document.getElementById('stinky').innerHTML='&#129033; Row | &#129035; Column';
-    num2 = parseFloat(document.getElementById("input2").value)-1
+    num2 = parseFloat(document.getElementById("input2").value)
     final = factorialize(num1)
     final /= factorialize(num2) * factorialize(num1-num2)
     document.getElementById("answer").innerHTML="Answer: " + final;
