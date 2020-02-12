@@ -25,7 +25,7 @@ button {
 }
 
 .encrypt {
-    background-color: grey;
+    background-color: #E154BD;
     color: #6F0B57;
     padding: 5px;
     font-size: 16px;
@@ -33,6 +33,7 @@ button {
     margin-right: 30px;
     margin-left: 30px;
     margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
     border-color: black;
 }
@@ -89,7 +90,7 @@ button {
     border-color: black;
 }
 .decrypt {
-    background-color: grey;
+    background-color: #E154BD;
     color: #6F0B57;
     padding: 5px;
     font-size: 16px;
@@ -97,6 +98,7 @@ button {
     margin-right: 30px;
     margin-left: 30px;
     margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
     border-color: black;
 }
