@@ -1,5 +1,5 @@
 header {
-    color: #6F0B57;
+    color: #000000;
     margin-right: 30px;
     margin-left: 30px;
     text-align: center;
@@ -14,7 +14,7 @@ body {
 button {
     background-color: #B8459C;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    color: #6F0B57;
+    color: #000000;
     padding: 16px;
     font-weight: bold;
     font-size: 16px;
@@ -26,7 +26,7 @@ button {
 
 .encrypt {
     background-color: #E154BD;
-    color: #6F0B57;
+    color: #000000;
     padding: 5px;
     font-size: 16px;
     border: 10px;
@@ -39,7 +39,7 @@ button {
 }
 #pascal {
     background-color: #E154BD;
-    color: #6F0B57;
+    color: #000000;
     padding: 5px;
     font-size: 12px;
     border: 10px;
@@ -52,7 +52,7 @@ button {
 }
 #pythagorean {
     background-color: #E154BD;
-    color: #6F0B57;
+    color: #000000;
     padding: 5px;
     font-size: 12px;
     border: 10px;
@@ -65,7 +65,7 @@ button {
 }
 #fib {
     background-color: #E154BD;
-    color: #6F0B57;
+    color: #000000;
     padding: 5px;
     font-size: 12px;
     border: 10px;
@@ -78,7 +78,7 @@ button {
 }
 #base{
     background-color: #E154BD;
-    color: #6F0B57;
+    color: #000000;
     padding: 5px;
     font-size: 12px;
     border: 5px;
@@ -91,7 +91,7 @@ button {
 }
 .decrypt {
     background-color: #E154BD;
-    color: #6F0B57;
+    color: #000000;
     padding: 5px;
     font-size: 16px;
     border: 10px;
@@ -109,7 +109,7 @@ input {
 
 .dropdown1-content {
     display: none;
-    color: #6F0B57;
+    color: #000000;
     position: absolute;
     background-color: #F3ADE1;
     min-width: 160px;
@@ -122,7 +122,7 @@ input {
 }
 .dropdown2-content {
     display: none;
-    color: #6F0B57;
+    color: #000000;
     position: absolute;
     background-color: #F3ADE1;
     min-width: 160px;
@@ -206,7 +206,7 @@ right: 0;
     text-align: center;
 }
 .link a {
-    color: #6F0B57;
+    color: #000000;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
