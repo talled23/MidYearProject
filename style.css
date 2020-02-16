@@ -7,6 +7,8 @@ header {
     1px 1px 1px rgb(31, 50, 71),
     1px 2px 1px rgb(31, 50, 71),
     1px 3px 1px rgb(31, 50, 71);
+
+    font-size: 18px;
     }
 body {
     background-color: #FF66DA;
@@ -21,7 +23,7 @@ button {
     color: #88ff9c;
     padding: 16px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 17px;
     border: none;
     margin-right: 5px;
     margin-left: 5px;
@@ -182,23 +184,23 @@ right: 0;
 
 .dropdown1:hover .dropdown1-content {display: block;}
 .dropdown1:hover .dropbtn1 {background: #88ff9c;}
-.dropdown1:hover .dropbtn1 {color: white;}
+.dropdown1:hover .dropbtn1 {color: rgb(150, 53, 150);}
 
 .dropdown3:hover .dropbtn3 {background: #88ff9c;}
-.dropdown3:hover .dropbtn3 {color: white;}
+.dropdown3:hover .dropbtn3 {color: rgb(150, 53, 150);}
 
 .dropdown2:hover .dropdown2-content {display: block;}
 .dropdown2:hover .dropbtn2 {background: #88ff9c;}
-.dropdown2:hover .dropbtn2 {color: white;}
+.dropdown2:hover .dropbtn2 {color: rgb(150, 53, 150)f;}
 
 
 .dropdown4-content a:hover {background-color: #C13FA0;}
 .dropdown4:hover .dropdown4-content {display: block;}
 .dropdown4:hover .dropbtn4 {background: #88ff9c;}
-.dropdown4:hover .dropbtn4 {color: white;}
+.dropdown4:hover .dropbtn4 {color: rgb(150, 53, 150);}
 
 .dropdown5:hover .dropbtn5 {background: #88ff9c;}
-.dropdown5:hover .dropbtn5 {color: white;}
+.dropdown5:hover .dropbtn5 {color: rgb(150, 53, 150);}
 
 .dropdowns{
     position: relative;
@@ -221,4 +223,47 @@ right: 0;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+}
+.shadow {
+    position: relative;
+    margin: 20px auto 0;
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(0deg, #000, #262626);
+}
+
+.shadow::before,
+.shadow::after
+{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg,#fb0094,#0000ff, #00ff00, #ffff00, #ff0000, #fb0094,#0000ff, #00ff00, #ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 10s linear infinite;
+}
+
+.shadow::after
+{
+    filter: blur(0px);
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0 0;
+    }
+    50%
+    {
+        background-position: 300% 0;
+    }
+    100%
+    {
+        background-position: 0 0;
+    }
 }
