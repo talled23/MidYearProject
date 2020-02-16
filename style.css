@@ -1,9 +1,13 @@
 header {
-    color: #6F0B57;
+    color: rgb(171, 13, 185);
     margin-right: 30px;
     margin-left: 30px;
     text-align: center;
-}
+    text-shadow:
+    1px 1px 1px rgb(31, 50, 71),
+    1px 2px 1px rgb(31, 50, 71),
+    1px 3px 1px rgb(31, 50, 71);
+    }
 body {
     background-color: #FF66DA;
     background-image: linear-gradient(to right, #E154BD , rgb(36, 180, 228));
@@ -12,9 +16,9 @@ body {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 button {
-    background-color: #B8459C;
+    background-color: rgba(236, 93, 181, 0);
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    color: #6F0B57;
+    color: #88ff9c;
     padding: 16px;
     font-weight: bold;
     font-size: 16px;
@@ -22,9 +26,30 @@ button {
     margin-right: 5px;
     margin-left: 5px;
     text-align: center;
-}
+    border: 1.5px solid #88ff9c;
+    text-shadow:
+    0px 0px 1px rgb(141, 141, 141),
+    0px 1px 1px rgb(141, 141, 141),
+    0px 2px 1px rgb(141, 141, 141),
 
-.encrypt {
+    1px 1px 1px rgb(168, 168, 168),
+    1px 2px 1px rgb(168, 168, 168),
+    1px 3px 1px rgb(168, 168, 168);
+}
+.encrypt{
+    background-color: #E154BD;
+    color: #6F0B57;
+    padding: 5px;
+    font-size: 16px;
+    border: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-color: black;
+}
+.decrypt {
     background-color: #E154BD;
     color: #6F0B57;
     padding: 5px;
@@ -89,20 +114,6 @@ button {
     text-align: center;
     border-color: black;
 }
-.decrypt {
-    background-color: #E154BD;
-    color: #6F0B57;
-    padding: 5px;
-    font-size: 16px;
-    border: 10px;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-    border-color: black;
-}
-
 input {
     background-color: #E154BD;
 }
@@ -170,23 +181,23 @@ right: 0;
 }
 
 .dropdown1:hover .dropdown1-content {display: block;}
-.dropdown1:hover .dropbtn1 {background: blue;}
+.dropdown1:hover .dropbtn1 {background: #88ff9c;}
 .dropdown1:hover .dropbtn1 {color: white;}
 
-.dropdown3:hover .dropbtn3 {background: blue;}
+.dropdown3:hover .dropbtn3 {background: #88ff9c;}
 .dropdown3:hover .dropbtn3 {color: white;}
 
 .dropdown2:hover .dropdown2-content {display: block;}
-.dropdown2:hover .dropbtn2 {background: blue;}
+.dropdown2:hover .dropbtn2 {background: #88ff9c;}
 .dropdown2:hover .dropbtn2 {color: white;}
 
 
 .dropdown4-content a:hover {background-color: #C13FA0;}
 .dropdown4:hover .dropdown4-content {display: block;}
-.dropdown4:hover .dropbtn4 {background: blue;}
+.dropdown4:hover .dropbtn4 {background: #88ff9c;}
 .dropdown4:hover .dropbtn4 {color: white;}
 
-.dropdown5:hover .dropbtn5 {background: blue;}
+.dropdown5:hover .dropbtn5 {background: #88ff9c;}
 .dropdown5:hover .dropbtn5 {color: white;}
 
 .dropdowns{
