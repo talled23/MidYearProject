@@ -32,15 +32,11 @@ button {
     text-shadow:
     0px 0px 1px rgb(141, 141, 141),
     0px 1px 1px rgb(141, 141, 141),
-    0px 2px 1px rgb(141, 141, 141),
-
-    1px 1px 1px rgb(168, 168, 168),
-    1px 2px 1px rgb(168, 168, 168),
-    1px 3px 1px rgb(168, 168, 168);
+    0px 2px 1px rgb(141, 141, 141);
 }
 .encrypt{
     background-color: #E154BD;
-    color: #6F0B57;
+    color: #000000;
     padding: 5px;
     font-size: 16px;
     border: 10px;
@@ -49,7 +45,7 @@ button {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
-    border-color: black;
+    border-color: black;    
 }
 .decrypt {
     background-color: #E154BD;
@@ -64,6 +60,13 @@ button {
     text-align: center;
     border-color: black;
 }
+.no-shadow {
+    text-shadow:
+    0px 0px 0px rgb(141, 141, 141),
+    0px 0px 0px rgb(141, 141, 141),
+    0px 0px 0px rgb(141, 141, 141);
+}
+
 #pascal {
     background-color: #E154BD;
     color: #000000;
@@ -184,23 +187,23 @@ right: 0;
 
 .dropdown1:hover .dropdown1-content {display: block;}
 .dropdown1:hover .dropbtn1 {background: #88ff9c;}
-.dropdown1:hover .dropbtn1 {color: rgb(150, 53, 150);}
+.dropdown1:hover .dropbtn1 {color: rgb(105, 10, 114);}
 
 .dropdown3:hover .dropbtn3 {background: #88ff9c;}
-.dropdown3:hover .dropbtn3 {color: rgb(150, 53, 150);}
+.dropdown3:hover .dropbtn3 {color: rgb(105, 10, 114);}
 
 .dropdown2:hover .dropdown2-content {display: block;}
 .dropdown2:hover .dropbtn2 {background: #88ff9c;}
-.dropdown2:hover .dropbtn2 {color: rgb(150, 53, 150)f;}
+.dropdown2:hover .dropbtn2 {color: rgb(105, 10, 114);}
 
 
 .dropdown4-content a:hover {background-color: #C13FA0;}
 .dropdown4:hover .dropdown4-content {display: block;}
 .dropdown4:hover .dropbtn4 {background: #88ff9c;}
-.dropdown4:hover .dropbtn4 {color: rgb(150, 53, 150);}
+.dropdown4:hover .dropbtn4 {color: rgb(105, 10, 114);}
 
 .dropdown5:hover .dropbtn5 {background: #88ff9c;}
-.dropdown5:hover .dropbtn5 {color: rgb(150, 53, 150);}
+.dropdown5:hover .dropbtn5 {color: rgb(105, 10, 114);}
 
 .dropdowns{
     position: relative;
