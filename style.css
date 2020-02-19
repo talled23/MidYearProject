@@ -16,6 +16,7 @@ body {
     font-family: helvetica;
     font-size: 14px;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
 }
 button {
     background-color: rgba(236, 93, 181, 0);
