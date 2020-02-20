@@ -21,7 +21,7 @@ function counter() {
     document.getElementById("Counter").style.fontSize=`${font}px`
     document.getElementById('Counter').style.padding = `${a}px ${b}px ${c}px ${d}px`;
 }
-function pythagor() {
+function pythagor() {   
     document.getElementById('stinky').innerHTML="&#129033; A | &#129035; B";
     num1 = parseFloat(document.getElementById("input1").value)
     num2 = parseFloat(document.getElementById("input2").value)
